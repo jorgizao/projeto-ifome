@@ -22,6 +22,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .header-nav a {
@@ -64,17 +65,15 @@
 .container-section {
   width: 50%;
   padding: 56px 136px;
-
 }
 .container-div-texto h1 {
-
 }
 
 .container-formulario {
- display: flex;
+  display: flex;
 }
 .botao {
-background-color: red;
-color:white;  
+  background-color: red;
+  color: white;
 }
 /* footer */
