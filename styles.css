@@ -56,7 +56,10 @@
 
 /* section */
 .section-inicio {
-  background-color: aquamarine;
+  background-image: url(./img/bg-inicio.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .div-inicio-texto {
@@ -64,7 +67,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .div-inicio-texto h1 {
@@ -78,14 +81,17 @@
   justify-content: center;
   flex-direction: row;
   padding: 50px;
+
 }
 .div-inicio-botao {
   width: 50%;
-  gap: 12px;
+  gap: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+
+
+  
 }
 .inicio-botao {
   background-color: #ea1d2c;
@@ -96,7 +102,24 @@
   font-size: 16px;
 }
 .botao {
+ 
   border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin: 4px;
+}
+.botao h2 {
+  font-size: 17.5px;
+  padding: 12px;
+  color: #717171;
+}
+
+.input-inicio-botao {
+  background-color: #f2f2f2;
+  border: none;
+  height: 48px;
+  width: 360px;
+  margin-right: 25px;
   border-radius: 5px;
 }
 /* footer */
