@@ -57,7 +57,6 @@
 /* section */
 .section-inicio {
   background-color: aquamarine;
-
 }
 
 .div-inicio-texto {
@@ -66,7 +65,6 @@
   flex-direction: column;
   align-items: center;
   padding-top: 200px;
-
 }
 
 .div-inicio-texto h1 {
@@ -88,8 +86,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-
-  
 }
 .inicio-botao {
   background-color: #ea1d2c;
@@ -101,6 +97,6 @@
 }
 .botao {
   border: none;
-  border-radius:5px ;
+  border-radius: 5px;
 }
 /* footer */
