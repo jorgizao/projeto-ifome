@@ -25,13 +25,32 @@
 }
 
 .header-nav a {
-    font-size: 17px;
- text-decoration: none;
+  color: #3e3e3e;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#button-0 {
+  color: #ea1d2c;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
 .button-1 {
   background: #ea1d2c;
   color: #fff;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* section */
