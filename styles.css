@@ -5,9 +5,33 @@
 }
 
 /* header */
+
 .header {
-  background-color: brown;
-  color: white;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-tipo img {
+  width: 150px;
+}
+
+.header-nav {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-nav a {
+    font-size: 17px;
+ text-decoration: none;
+}
+
+.button-1 {
+  background: #ea1d2c;
+  color: #fff;
 }
 
 /* section */
