@@ -5,9 +5,52 @@
 }
 
 /* header */
+
 .header {
-  background-color: brown;
-  color: white;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-tipo img {
+  width: 150px;
+}
+
+.header-nav {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-nav a {
+  color: #3e3e3e;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#button-0 {
+  color: #ea1d2c;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.button-1 {
+  background: #ea1d2c;
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* section */
