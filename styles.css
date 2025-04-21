@@ -45,7 +45,7 @@
 .nav-cabecalho a {
   color: #3e3e3e;
   font-size: 1rem;
-  
+
   text-decoration: none;
 }
 
@@ -54,6 +54,7 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 #button-0 {
@@ -186,6 +187,51 @@
   padding: 15px;
   font-size: 15px;
 }
+
+/* tem fome de que */
+
+.container-section-foodlover {
+  display: flex;
+  justify-content: center;
+}
+
+.container-div-foodlover {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+}
+
+.div-foodlover {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.div-foodlover h2 {
+  font-size: 40px;
+  width: 80%;
+}
+
+.div-foodlover p {
+  width: 90%;
+}
+
+.botao-foodlover {
+  background: #ea1d2c;
+  color: #fff;
+  padding: 15px 41px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /* footer */
 .section-footer {
   /* background-color: #ea1d2c; */
