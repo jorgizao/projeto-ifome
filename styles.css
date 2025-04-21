@@ -187,6 +187,8 @@
   border-radius: 0 5px 5px 0;
   padding: 15px;
   font-size: 15px;
+  outline: none;
+  
 }
 .lupa {
   display: flex;
@@ -195,6 +197,7 @@
   padding-left: 13px;
   color: #f80303;
   border-radius: 5px 0 0 5px;
+  
 }
 
 /* footer */
