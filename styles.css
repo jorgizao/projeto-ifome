@@ -45,7 +45,7 @@
 .nav-cabecalho a {
   color: #3e3e3e;
   font-size: 1rem;
-  
+
   text-decoration: none;
 }
 
@@ -163,6 +163,8 @@
   border-radius: 5px;
   padding: 6px 6px;
   font-size: 16px;
+  height: 48px;
+  width: 200px;
 }
 .botao {
   border-radius: 20px;
@@ -182,10 +184,19 @@
   height: 48px;
   width: 360px;
   margin-right: 25px;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
   padding: 15px;
   font-size: 15px;
 }
+.lupa {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding-left: 13px;
+  color: #f80303;
+  border-radius: 5px 0 0 5px;
+}
+
 /* footer */
 .section-footer {
   /* background-color: #ea1d2c; */
