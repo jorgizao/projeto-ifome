@@ -98,6 +98,10 @@
   flex-direction: row;
   padding: 50px;
 }
+
+.input-inicio-botao {
+  padding-left: 15px;
+}
 .div-inicio-botao {
   flex-wrap: wrap;
   gap: 10px;
@@ -132,6 +136,8 @@
   width: 360px;
   margin-right: 25px;
   border-radius: 5px;
+  padding: 15px;
+  font-size: 15px;
 }
 /* footer */
 .section-footer2{
