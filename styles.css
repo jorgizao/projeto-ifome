@@ -17,13 +17,14 @@
   width: 150px;
 }
 
-.header-nav {
-  width: 50%;
+.header-div {
+  width: 80%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 40px;
   flex-wrap: wrap;
+  background-color: grey;
 }
 
 .header-nav a {
@@ -63,10 +64,39 @@
 /* section */
 
 .main-imagem {
+  position: relative;
+  padding-bottom: 400px;
+}
+
+.main-imagem::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
   background-image: url(./img/bg-inicio.webp);
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 4;
+}
+
+.main-imagem::after {
+  content: "";
+  width: 100%;
+  height: 200px;
+  background-color: #ebebeb;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.vazio {
+  width: 100%;
+  height: 120px;
+  background-color: #cecece;
 }
 
 .section-inicio {
@@ -76,6 +106,7 @@
 
 .div-total {
   width: 40%;
+  z-index: 5;
 }
 
 .div-inicio-texto {
@@ -83,7 +114,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 250px;
 }
 
 .div-inicio-texto h1 {
@@ -144,29 +175,31 @@
   background-color: gray;
 }
 .section-footer2{
+.section-footer2 {
   display: flex;
   justify-content: center;
   font-size: 13px;
   color: #717171;
 
   
+  background-color: #3e3e3e;
 }
-.div-footer2{
-  width: 75%;
+.div-footer2 {
+  background-color: red;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
     border-top: 1px solid #717171;
+  border-top: 1px solid #717171;
 }
-.div-texto img{
+.div-texto img {
   width: 100px;
 }
-.section-footer2 p{
+.section-footer2 p {
   padding-right: 3rem;
 }
-.div-ancoras-footer2 a{
+.div-ancoras-footer2 a {
   color: #717171;
   gap: 2px;
 }
-
-
