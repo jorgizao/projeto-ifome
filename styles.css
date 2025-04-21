@@ -140,15 +140,23 @@
   display: flex;
   flex-direction: row;
   border-top: 5rem solid #f4eaea;
+
 }
 .footer-pai p {
   color: #3e3e3e;
-  width: 1rem;
+  
+}
+.div-ifome{
+  font-size: 1.5rem;
 }
 .div-ancoras-ifome {
   display: flex;
   flex-direction: column;
+  gap: 24px;
+  
+  
 }
 .div-ancoras-ifome a {
   color: #717171;
+ 
 }
