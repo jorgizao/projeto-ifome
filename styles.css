@@ -55,6 +55,11 @@
   text-decoration: none;
 }
 
+.button-1:hover {
+  background: #e76f77;
+  transition: 0.2s ease;
+}
+
 /* section */
 
 .main-imagem {
@@ -142,14 +147,14 @@
 .div-ifome{
   font-size: 1.5rem;
 }
-.div-ancoras-ifome{
+.div-ancoras-ifome {
   display: flex;
   flex-direction: column;
   gap: 24px;
   
   
 }
-.div-ancoras-ifome a{
+.div-ancoras-ifome a {
   color: #717171;
  
 }
