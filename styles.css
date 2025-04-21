@@ -3,11 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: helvetica, sans-serif;
 }
 
 /* header */
 
-.header {
+.container-cabecalho {
   background-color: #f7f7f7;
   display: flex;
   justify-content: center;
@@ -17,18 +18,34 @@
   width: 150px;
 }
 
-.header-div {
-  width: 80%;
+.container-div-cabecalho {
+  width: 70%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
   flex-wrap: wrap;
 }
 
-.header-nav a {
+.div-cabecalho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.nav-cabecalho ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-cabecalho a {
   color: #3e3e3e;
   font-size: 1rem;
+  
   text-decoration: none;
 }
 
@@ -175,60 +192,59 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 6rem; 
+  padding-top: 6rem;
 }
-.div-footer1{
+.div-footer1 {
   width: 80%;
   display: flex;
 }
-.div-ifome-pai{
+.div-ifome-pai {
   display: flex;
   flex-direction: column;
   gap: 20px;
   font-size: 20px;
   padding-right: 10rem;
 }
-.div-ancoras-ifome{
+.div-ancoras-ifome {
   display: flex;
   flex-direction: column;
   gap: 25px;
   padding-bottom: 3rem;
 }
-.div-ancoras-ifome a{
+.div-ancoras-ifome a {
   color: #717171;
   font-size: 20px;
 }
-.div-descubra-pai{
+.div-descubra-pai {
   display: flex;
   flex-direction: column;
   gap: 20px;
   font-size: 20px;
   padding-right: 2.5rem;
 }
-.div-ancoras-descubra{
+.div-ancoras-descubra {
   display: flex;
   flex-direction: column;
-  gap: 25px; 
+  gap: 25px;
 }
-.div-ancoras-descubra a{
+.div-ancoras-descubra a {
   color: #717171;
   font-size: 20px;
 }
-.div-social{
+.div-social {
   display: flex;
   padding-bottom: 25px;
 }
-.div-social p{
+.div-social p {
   font-size: 20px;
 }
- .div-imagens-social {
-display: flex;
+.div-imagens-social {
+  display: flex;
   flex-direction: row;
   gap: 15px;
- }
+}
 .div-imagens-social img {
   width: 45px;
-  
 }
 /* parte 2 da footer */
 .section-footer2 {
@@ -250,7 +266,7 @@ display: flex;
 .section-footer2 p {
   padding-right: 3rem;
 }
-.div-ancoras-footer2{
+.div-ancoras-footer2 {
   display: flex;
   flex-direction: row;
   gap: 20px;
