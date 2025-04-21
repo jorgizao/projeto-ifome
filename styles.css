@@ -55,11 +55,21 @@
 }
 
 /* section */
-.section-inicio {
+
+.main-imagem {
   background-image: url(./img/bg-inicio.webp);
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-inicio {
+  display: flex;
+  justify-content: center;
+}
+
+.div-total {
+  width: 50%;
 }
 
 .div-inicio-texto {
@@ -81,17 +91,12 @@
   justify-content: center;
   flex-direction: row;
   padding: 50px;
-
 }
 .div-inicio-botao {
-  width: 50%;
   gap: 10px;
   display: flex;
-  flex-direction: row;
   align-items: center;
-
-
-  
+  justify-content: center;
 }
 .inicio-botao {
   background-color: #ea1d2c;
@@ -102,10 +107,8 @@
   font-size: 16px;
 }
 .botao {
- 
   border: none;
-  border-radius: 5px;
-  padding: 8px 12px;
+  padding: 6px 10px;
   margin: 4px;
 }
 .botao h2 {
