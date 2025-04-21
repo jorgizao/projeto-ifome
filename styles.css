@@ -55,6 +55,11 @@
   text-decoration: none;
 }
 
+.button-1:hover {
+  background: #e76f77;
+  transition: 0.2s ease;
+}
+
 /* section */
 
 .main-imagem {
@@ -137,11 +142,10 @@
 .footer-pai p {
   color: #3e3e3e;
 }
-.div-ancoras-ifome{
+.div-ancoras-ifome {
   display: flex;
   flex-direction: column;
-  
 }
-.div-ancoras-ifome a{
+.div-ancoras-ifome a {
   color: #717171;
 }
