@@ -12,7 +12,7 @@
   background-color: #f7f7f7;
   display: flex;
   justify-content: center;
-   /* flex-direction: row; */
+  /* flex-direction: row; */
 }
 
 .logo-tipo img {
@@ -27,7 +27,6 @@
   align-items: center;
   gap: 34px;
   /* flex-wrap: wrap; */
- 
 }
 
 .div-cabecalho {
@@ -58,7 +57,7 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-   /* flex-wrap: wrap;  */
+  /* flex-wrap: wrap;  */
 }
 
 #button-0 {
@@ -70,7 +69,7 @@
 .button-1 {
   background: #ea1d2c;
   color: #fff;
-   padding: 15px 41px; 
+  padding: 15px 41px;
   border: none;
   border-radius: 8px;
   font-weight: bold;
@@ -193,7 +192,6 @@
   padding: 15px;
   font-size: 15px;
   outline: none;
-  
 }
 .lupa {
   background-color: #f2f2f2;
@@ -206,48 +204,45 @@
 }
 
 /* tem fome de quê */
-.container-section-foodlover{
+.container-section-foodlover {
   /* background-color: #ea1d2c; */
   display: flex;
   justify-content: center;
 }
-.container-div-foodlover{
-/* background-color: #717171; */
-width: 80%;
-display: flex;
-flex-direction: row;
-border-top: 1px solid #cdc4c4;
-padding-top: 6rem;
+.container-div-foodlover {
+  /* background-color: #717171; */
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #cdc4c4;
+  padding-top: 6rem;
 }
-.div-foodlover{
+.div-foodlover {
   padding-left: 4rem;
-  
 }
-.div-foodlover h2{
-  
+.div-foodlover h2 {
   font-size: 34px;
-  width: 45%;
+  width: 40%;
   padding-bottom: 2rem;
 }
-.div-foodlover p{
+.div-foodlover p {
   font-size: 17px;
   /* background-color: #ea1d2c; */
-  width: 70%;
+  width: 60%;
   color: #717171;
 }
-.div-foodlover button{
+.div-foodlover button {
   background: #ea1d2c;
   color: #fff;
-   padding: 15px 17px; 
+  padding: 15px 17px;
   border: none;
   border-radius: 8px;
   font-weight: bold;
-  text-decoration: none
+  text-decoration: none;
 }
-.botao-foodlover1{
+.botao-foodlover1 {
   padding-top: 1rem;
 }
-
 
 /* footer */
 .section-footer {
