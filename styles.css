@@ -192,6 +192,16 @@
   border-radius: 0 5px 5px 0;
   padding: 15px;
   font-size: 15px;
+  
+}
+.lupa {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ea1d2c;
+  padding-left: 12px;
+  border-radius: 5px 0 0 5px;
 }
 
 /* tem fome de quê */
