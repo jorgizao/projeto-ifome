@@ -12,6 +12,7 @@
   background-color: #f7f7f7;
   display: flex;
   justify-content: center;
+   /* flex-direction: row; */
 }
 
 .logo-tipo img {
@@ -19,12 +20,14 @@
 }
 
 .container-div-cabecalho {
-  width: 70%;
+  width: 80%;
+  /* background-color: #ea1d2c; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
-  flex-wrap: wrap;
+  gap: 34px;
+  /* flex-wrap: wrap; */
+ 
 }
 
 .div-cabecalho {
@@ -32,20 +35,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .nav-cabecalho ul {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 30px;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nav-cabecalho a {
   color: #3e3e3e;
   font-size: 1rem;
-
   text-decoration: none;
 }
 
@@ -54,7 +58,7 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  flex-wrap: wrap;
+   /* flex-wrap: wrap;  */
 }
 
 #button-0 {
@@ -66,7 +70,7 @@
 .button-1 {
   background: #ea1d2c;
   color: #fff;
-  padding: 15px 41px;
+   padding: 15px 41px; 
   border: none;
   border-radius: 8px;
   font-weight: bold;
