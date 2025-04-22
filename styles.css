@@ -193,6 +193,37 @@
   padding: 15px;
   font-size: 15px;
 }
+
+/* tem fome de quê */
+.container-section-foodlover{
+  /* background-color: #ea1d2c; */
+  display: flex;
+  justify-content: center;
+}
+.container-div-foodlover{
+/* background-color: #717171; */
+width: 80%;
+display: flex;
+flex-direction: row;
+border-top: 1px solid #cdc4c4;
+padding-top: 6rem;
+}
+.div-foodlover{
+  padding-left: 4rem;
+}
+.div-foodlover h2{
+  
+  font-size: 34px;
+  width: 45%;
+  padding-bottom: 2rem;
+}
+.div-foodlover p{
+  font-size: 17px;
+  /* background-color: #ea1d2c; */
+  width: 70%;
+  color: #717171;
+}
+
 /* footer */
 .section-footer {
   /* background-color: #ea1d2c; */
