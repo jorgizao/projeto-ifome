@@ -220,6 +220,7 @@ padding-top: 6rem;
 }
 .div-foodlover{
   padding-left: 4rem;
+  
 }
 .div-foodlover h2{
   
@@ -233,6 +234,19 @@ padding-top: 6rem;
   width: 70%;
   color: #717171;
 }
+.div-foodlover button{
+  background: #ea1d2c;
+  color: #fff;
+   padding: 15px 17px; 
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none
+}
+.botao-foodlover1{
+  padding-top: 1rem;
+}
+
 
 /* footer */
 .section-footer {
