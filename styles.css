@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: helvetica, sans-serif;
+  
 }
 
 /* header */
@@ -13,6 +14,12 @@
   display: flex;
   justify-content: center;
   /* flex-direction: row; */
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  
 }
 
 .logo-tipo img {
@@ -122,6 +129,7 @@
 .section-inicio {
   display: flex;
   justify-content: center;
+  
 }
 
 .div-total {
@@ -204,7 +212,7 @@
 }
 
 .ifome {
-  color:#ea1d2c
+  color: #ea1d2c;
 }
 /* tem fome de quê */
 .container-section-foodlover {
@@ -334,8 +342,7 @@
 }
 .div-ancoras-footer2 a {
   color: #717171;
-  
+
   gap: 10px;
   width: 130px;
-  
 }
