@@ -214,6 +214,75 @@
 .ifome {
   color: #ea1d2c;
 }
+
+/* melhores restaurantes */
+
+.section-mr {
+  margin: 100px 100px 100px 100px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.mr-h2 {
+  padding-bottom: 20px;
+}
+.div-mr-todo{
+  display: flex;
+  flex-direction: column;
+}
+.div-mr-caixa-1 {
+  border: 1px solid #bcb9b9;
+  height: 138px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  /* margin: 12px; */
+  
+}
+
+.div-mr-img-texto {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  padding: 20px 16px;
+  
+}
+.div-mr-img-texto p {
+  color: #827f7f;
+  font-size: 15px;
+  padding-top: 5px;
+}
+.mr-imagem {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+}
+
+.verificado img {
+  height: 15px;
+  width: 15px;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  
+}
+
+.div-mr-texto {
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.div-mr-todas-caixas {
+  display: flex;
+  justify-content: row;
+  gap: 12px;
+}
+
+
 /* tem fome de quê */
 .container-section-foodlover {
   /* background-color: #ea1d2c; */
